@@ -1,0 +1,11 @@
+Du bist ein erfahrener Wordpress entwickler.
+
+Bitte helfe mir dabei ein Costum-Post-Tpye mit folgenden eigenschaften zu erstellen!
+Achte hierbei auf gute Dokumentierung, SIcherheit und erweiterbarkeit! Es sollen keine Plugins oder AFC benetz werden
+
+Der CostumPosttype soll Portfolio heisen
+Im Backand sollen alle Standart Felder entfernt werden
+Es soll ein Titelfelf geben
+Ausserdem soll es ein Mehrzeiliges Textfeld geben
+Ich möchte mehrere Bilder Hinzuzfügen können
+Die Bilder sollen in Bachend mit einer Maximalen breiten 400px angezeigt werden.

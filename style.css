@@ -1,0 +1,45 @@
+/*
+Theme Name: ML Theme 3.6
+Theme URI: http://deinewebsite.de/
+Author: Dein Name
+Author URI: http://deinewebsite.de/
+Description: Ein maßgeschneidertes Theme für einen professionellen Fotografen.
+Version: 3.6
+*/
+
+/* Limit the width of images in the portfolio image metabox */
+#portfolio_images_container .portfolio_image img {
+    max-width: 300px !important;
+    height: auto !important;
+}
+
+#tableau_layout {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  #tableau_layout li {
+    padding: 5px 10px;
+    position: relative;
+  }
+  
+  #tableau_layout li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  #tableau_layout li.selected:before {
+    background-color: #863535;
+  }
+  .dropped-image img {
+    filter: grayscale(50%);
+  }
+  
